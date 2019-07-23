@@ -9,7 +9,7 @@ public class Hurtownia {
     public Hurtownia(String produkt, int ilosc, double cenaProduktu) {
         this.produkt = produkt;
         this.ilosc = ilosc;
-        this.cenaProduktu = cenaProduktu;
+
     }
 
     public Hurtownia() {
