@@ -1,3 +1,5 @@
+import java.util.Map;
+
 public class SklepSpozywczyMain {
 
 
@@ -8,11 +10,15 @@ public class SklepSpozywczyMain {
 
         zamowienie1.dodajZamowienie();
 
-
+        zamowienie1.wyswietlZamowione();
+        zamowienie1.usunZamowienie();
+        zamowienie1.wyswietlZamowione();
 
     }
 
-
-
-
 }
+
+
+
+
+
