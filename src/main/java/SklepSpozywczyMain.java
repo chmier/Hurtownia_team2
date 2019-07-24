@@ -3,7 +3,7 @@ import java.util.Map;
 public class SklepSpozywczyMain {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
 
         Magazyn zamowienie1 = new Magazyn();
