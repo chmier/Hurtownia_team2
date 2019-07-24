@@ -33,7 +33,6 @@ public class Magazyn {
         for (Map.Entry<Integer, Hurtownia> entry : listaProduktowDoZamowienia.entrySet()) {
             System.out.println("Nr zamówienia to : " + entry.getKey() + " | " + entry.getValue().getProdukt() + " | " + " ilość : " + entry.getValue().getIlosc());
         }
-
     }
 
     public void usunZamowienie() {
